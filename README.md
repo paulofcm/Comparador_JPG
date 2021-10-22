@@ -1,3 +1,5 @@
+Contexto
+Para realização de auditoria de imagens fornecidas como prova de execução de um serviço de reparo em equipamentos, existe a necessidade de um serviço que realize a comparação de imagens em uma base de imagens e que identifique similaridade entre elas.
 
 Objetivo
 Implementar uma API que fornece operações necessárias para:
@@ -19,7 +21,6 @@ https://github.com/krishnact/jphash
 https://spring.io/guides/tutorials/rest/
 https://pypi.org/project/ImageHash/
 https://flask.palletsprojects.com
-
 
 
 1 - checar o tipo do arquivo
