@@ -1,4 +1,4 @@
-Contexto
+Contexto<br>
 Para realização de auditoria de imagens fornecidas como prova de execução de um serviço de reparo em equipamentos, existe a necessidade de um serviço que realize a comparação de imagens em uma base de imagens e que identifique similaridade entre elas.
 
 Objetivo
