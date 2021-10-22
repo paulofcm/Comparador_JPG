@@ -22,9 +22,9 @@ while menu != '0':
         diretorio.deletar_diretorio()
     elif menu == 3:
         imagens.carregar_imagens()
-    elif menu == 4: #os.rmdir(diretorio)
-        print("4")
+    elif menu == 4:
+        imagens.deletar_imagens()
     elif menu == 5:
-        print("5")
+        imagens.comparar_imagens()
     elif menu == 6:
         print("6")
