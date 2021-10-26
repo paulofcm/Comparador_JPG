@@ -29,3 +29,4 @@ while menu != 0:
         imagens.comparar_imagens()
     elif menu == 6:
         imagens.achar_similaridade()
+
