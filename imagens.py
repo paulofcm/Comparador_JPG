@@ -64,9 +64,7 @@ def comparar_imagens():
 
 
 
-
 def achar_similaridade():
-    dic_a = {}
     n=3
     list_dic = {}
     dic_hash = {}
@@ -98,15 +96,8 @@ def achar_similaridade():
         for i in dic_hash:
             resultado = 100- ((h1 - dic_hash[i]) / len(dic_hash[i].hash) ** 2*100)
             list_dic[i] = resultado
-        #dic_a = dict(sorted(list_dic.items(), key=itemgetter(1), reverse=True))
-        #print(dic_a)
         dic_mapeado = dict(sorted(list_dic.items(), key=itemgetter(1), reverse=True)[:n])
         print("\nOs ",n," maiores valores são: " , dic_mapeado)
-
-
-
-
-
 
 
 def verifica_jpg(str):

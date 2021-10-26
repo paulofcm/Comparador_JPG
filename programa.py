@@ -1,5 +1,4 @@
 import diretorio
-import funcaoImagem
 import imagens
 
 menu = True
