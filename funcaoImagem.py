@@ -1,51 +1,29 @@
 import os
 import shutil
-import tkinter
 from tkinter import messagebox, filedialog
+
 import PIL
-import imagehash as imagehash
-from PIL import Image
+import imagehash
 
 
-
-root = tkinter.Tk()
-root.wm_withdraw() # this completely hides the root window
-
-def carregar_imagens():
-    qnt_image = 0
-    messagebox.showinfo("Etapa 1", "Escolha uma ou mais imagens para adicionar ao diretório")
-    imagens = filedialog.askopenfiles()
-    if len(imagens) > 0:
-        messagebox.showinfo("Etapa 2", "Escolha a pasta do Banco de Imagens")
-        destino = filedialog.askdirectory()
-        if len(destino) > 0:
-            for i in imagens:
-                testa_figura = verifica_jpg(i.name)
-                testa_image = image_corrompida(i.name)
-                if testa_figura and testa_image:
-                    shutil.copy(i.name, destino)
-                    i.close()
-                    qnt_image +=1
-
-            print("Foram carregadas : ", qnt_image, " imagens")
-
-
-def deletar_imagens():
-    messagebox.showinfo("Etapa 1", "Escolha uma ou mais imagens para deletar")
-    imagens = filedialog.askopenfiles()
-    if len(imagens) > 0:
-        for i in imagens:
-            i.close()
-            os.remove(i.name)
+def verifica_jpg(str):
+    st = str.split(".")
+    if st[-1] == "jpg":
+        return True
+    else:
+        print("A imagem ",str," não foi carregada")
+        print("Só são aceitas imagens jpg")
 
 def comparar_imagens():
     messagebox.showinfo("Etapa 1", "Escolha a imagem para ser comparada")
     imagem_A = filedialog.askopenfile()
+
     i = True
+
     try:
         imagem_X = PIL.Image.open(imagem_A.name)
         h1 = imagehash.phash(imagem_X)
-
+        print(h1)
     except PIL.UnidentifiedImageError:
         i = False
         print("A primeira imagem está corrompida")
@@ -55,14 +33,45 @@ def comparar_imagens():
         try:
             imagem_Y = PIL.Image.open(imagem_B.name)
             h2 = imagehash.phash(imagem_Y)
-
-            resultado = 100 - ((h1 - h2) / len(h2.hash) ** 2 * 100)
-            print("A imagem  em", imagem_A.name, "\ntem ", resultado, "% de similaridade com a imagem ", imagem_B.name)
+            print(h2)
         except PIL.UnidentifiedImageError:
             print("A segunda imagem está corrompida")
 
+def carregar_imagens():
+    messagebox.showinfo("Etapa 1", "Escolha uma ou mais imagens para adicionar ao diretório")
+    imagens = filedialog.askopenfiles()
+    for i in imagens:
+        try:
+            imagem_X = PIL.Image.open(i.name)
+            h1 = imagehash.phash(imagem_X)
+            print(h1)
+        except PIL.UnidentifiedImageError:
+            i = False
+            print("A imagem", i, "está corrompida")
+        if len(imagens) > 0:
+            messagebox.showinfo("Etapa 2", "Escolha a pasta do Banco de Imagens")
+            destino = filedialog.askdirectory()
+            if len(destino) > 0:
+                for i in imagens:
+                    testa_figura = verifica_jpg(i.name)
+                    if testa_figura:
+                        i.close()
+                        shutil.copy(i.name,destino)
+                print("Foram carregadas : ",len(imagens)," imagens")
 
-
+def carregar_imagens():
+    messagebox.showinfo("Etapa 1", "Escolha uma ou mais imagens para adicionar ao diretório")
+    imagens = filedialog.askopenfiles()
+    if len(imagens) > 0:
+        messagebox.showinfo("Etapa 2", "Escolha a pasta do Banco de Imagens")
+        destino = filedialog.askdirectory()
+        if len(destino) > 0:
+            for i in imagens:
+                testa_figura = verifica_jpg(i.name)
+                if testa_figura:
+                    i.close()
+                    shutil.copy(i.name, destino)
+            print("Foram carregadas : ", len(imagens), " imagens")
 
 def achar_similaridade():
     dic_hash = {}
@@ -84,7 +93,7 @@ def achar_similaridade():
             imagens = filedialog.askdirectory()
             for file in os.listdir(imagens):
                 try:
-                    f = PIL.Image.open(imagens+ "/" + file)
+                    f = PIL.Image.open(imagens+ "\\" + file)
                     h = imagehash.phash(f)
                     dic_hash[file]=h
                 except PIL.UnidentifiedImageError:
@@ -99,28 +108,3 @@ def achar_similaridade():
         #imagem_X.show()
         print("A imagem  em",imagem_A.name,"\ntem ",maior,"% de similaridade com a imagem ", indice)
         print("A imagem ", nome_da_imagem, "tem ", maior, "% de similaridade com a imagem ", indice)
-
-
-
-
-def verifica_jpg(str):
-    st = str.split(".")
-    if st[-1] == "jpg":
-        return True
-    else:
-        print("A imagem ",str," não foi carregada")
-        print("Só são aceitas imagens jpg")
-
-def image_corrompida(str):
-    flag = True
-    try:
-        imagem_X = PIL.Image.open(str)
-
-    except PIL.UnidentifiedImageError:
-        flag = False
-
-    if flag:
-        return True
-    else:
-        print(str, " Não pode ser carregada, arquivo corrompido")
-

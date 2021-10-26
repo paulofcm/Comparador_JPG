@@ -1,8 +1,9 @@
 import diretorio
+import funcaoImagem
 import imagens
 
 menu = True
-while menu != '0':
+while menu != 0:
     print('''
     0 - Sair. 
     1 - Criar Diretório.
@@ -27,4 +28,4 @@ while menu != '0':
     elif menu == 5:
         imagens.comparar_imagens()
     elif menu == 6:
-        print("6")
+        imagens.achar_similaridade()
