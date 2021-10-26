@@ -1,6 +1,7 @@
 import os
 import shutil
 import tkinter
+from operator import itemgetter
 from tkinter import messagebox, filedialog
 import PIL
 import imagehash as imagehash
@@ -65,7 +66,11 @@ def comparar_imagens():
 
 
 def achar_similaridade():
+    dic_a = {}
+    n=3
+    list_dic = {}
     dic_hash = {}
+    dic_mapeado = {}
     messagebox.showinfo("Etapa 1", "Escolha a imagem para ser comparada")
     imagem_A = filedialog.askopenfile()
     str = imagem_A.name
@@ -89,16 +94,17 @@ def achar_similaridade():
                     dic_hash[file]=h
                 except PIL.UnidentifiedImageError:
                     print("Esta imagem ", file, " está corrompida e será ignorada")
-        maior = 0
-        indice = ""
+
         for i in dic_hash:
             resultado = 100- ((h1 - dic_hash[i]) / len(dic_hash[i].hash) ** 2*100)
-            if resultado > maior:
-                maior = resultado
-                indice = i
-        #imagem_X.show()
-        print("A imagem  em",imagem_A.name,"\ntem ",maior,"% de similaridade com a imagem ", indice)
-        print("A imagem ", nome_da_imagem, "tem ", maior, "% de similaridade com a imagem ", indice)
+            list_dic[i] = resultado
+        #dic_a = dict(sorted(list_dic.items(), key=itemgetter(1), reverse=True))
+        #print(dic_a)
+        dic_mapeado = dict(sorted(list_dic.items(), key=itemgetter(1), reverse=True)[:n])
+        print("\nOs ",n," maiores valores são: " , dic_mapeado)
+
+
+
 
 
 
