@@ -1,5 +1,6 @@
-# Desafio NExT from Cesar School<br>
+# Desafio NExT do Cesar School<br>
 
+https://www.linkedin.com/school/cesarschool/
 https://www.cesar.school/next-nova-experiencia-de-trabalho/
 
 ## Mentores:<br>
