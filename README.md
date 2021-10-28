@@ -3,7 +3,7 @@
 https://www.cesar.school/next-nova-experiencia-de-trabalho/
 
 ## Mentores:<br>
-
+</div>
         <div class="Box-row clearfix d-flex flex-items-center js-repo-access-entry adminable">
             <input type="checkbox"
               class="js-bulk-actions-toggle"
@@ -50,8 +50,6 @@ https://www.cesar.school/next-nova-experiencia-de-trabalho/
 </div>
 <br>
 
-* rqgomes [![Github Badge](https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white&link=https://github.com/rqgomes)](https://github.com/rqgomes)<br>
-* vfponcell [![Github Badge](https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white&link=https://github.com/vfponcell)](https://github.com/vfponcell)<br>
 
 ## Desenvolvedores:<br>
 
@@ -143,7 +141,7 @@ https://www.cesar.school/next-nova-experiencia-de-trabalho/
   </span>
 </div>
 <br>
-
+</div>
         <div class="Box-row clearfix d-flex flex-items-center js-repo-access-entry adminable">
             <input type="checkbox"
               class="js-bulk-actions-toggle"
@@ -168,12 +166,6 @@ https://www.cesar.school/next-nova-experiencia-de-trabalho/
 </div>
 
 <br>
-
-* Alexandre1961 [![Github Badge](https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white&link=https://github.com/Alexandre1961)](https://github.com/Alexandre1961)<br>
-* benjazaicaner [![Github Badge](https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white&link=https://github.com/benjazaicaner)](https://github.com/benjazaicaner)<br>
-* filipelustosaf [![Github Badge](https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white&link=https://github.com/filipelustosaf)](https://github.com/filipelustosaf)<br>
-* ManoelPedroza [![Github Badge](https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white&link=https://github.com/ManoelPedroza)](https://github.com/ManoelPedroza)<br>
-* paulofcm [![Github Badge](https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white&link=https://github.com/paulofcm)](https://github.com/paulofcm)<br>
 
 ## Contexto<br>
 Para realização de auditoria de imagens fornecidas como prova de execução de um serviço de reparo em equipamentos, existe a necessidade de um serviço que realize a comparação de imagens em uma base de imagens e que identifique similaridade entre elas.
