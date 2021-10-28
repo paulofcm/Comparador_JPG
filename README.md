@@ -1,16 +1,18 @@
 # Desafio NExT from Cesar School<br>
 
+https://www.linkedin.com/school/cesarschool/
+
 ## Mentores:<br>
 
-[![Github Badge](https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white&link=https://github.com/vfponcell){:target="_blank"}](vfponcell)<br>
-[![Github Badge](https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white&link=https://github.com/rqgomes){:target="_blank"}](rqgomes)<br>
+[rqgomes]([![Github Badge](https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white&link=https://github.com/rqgomes)])<br>
+[vfponcell]([![Github Badge](https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white&link=https://github.com/vfponcell)])<br>
 
 ## Desenvolvedores:<br>
-[![Github Badge](https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white&link=https://github.com/Alexandre1961){:target="_blank"}](Alexandre1961)<br>
-[![Github Badge](https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white&link=https://github.com/benjazaicaner){:target="_blank"}](benjazaicaner)<br>
-[![Github Badge](https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white&link=https://github.com/filipelustosaf){:target="_blank"}](filipelustosaf)<br>
-[![Github Badge](https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white&link=https://github.com/ManoelPedroza){:target="_blank"}](ManoelPedroza)<br>
-[![Github Badge](https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white&link=https://github.com/paulofcm){:target="_blank"}](paulofcm)<br>
+[![Github Badge](https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white&link=https://github.com/Alexandre1961)](Alexandre1961)<br>
+[![Github Badge](https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white&link=https://github.com/benjazaicaner)](benjazaicaner)<br>
+[![Github Badge](https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white&link=https://github.com/filipelustosaf)](filipelustosaf)<br>
+[![Github Badge](https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white&link=https://github.com/ManoelPedroza)](ManoelPedroza)<br>
+[![Github Badge](https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white&link=https://github.com/paulofcm)](paulofcm)<br>
 
 ## Contexto<br>
 Para realização de auditoria de imagens fornecidas como prova de execução de um serviço de reparo em equipamentos, existe a necessidade de um serviço que realize a comparação de imagens em uma base de imagens e que identifique similaridade entre elas.
@@ -31,7 +33,7 @@ Implementar uma API que fornece operações necessárias para:<br>
  - Usar JPA para salvar imagens e seus hashes.<br>
 
 ## Referências:<br>
-[go](https://github.com/KilianB/JImageHash){:target="_blank"}<br>
+https://github.com/KilianB/JImageHash)<br>
 https://github.com/krishnact/jphash<br>
 https://spring.io/guides/tutorials/rest/<br>
 https://pypi.org/project/ImageHash/<br>
