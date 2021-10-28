@@ -25,7 +25,7 @@ while menu != 0:
     elif menu == 4:
         images.create_db_image_hash()
     elif menu == 5:
-        print("TODO")
+        images.compare_images()
     elif menu == 6:
         images.find_similar()
 

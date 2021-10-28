@@ -13,7 +13,7 @@ def create_dir():
     #str2 = "Select local to create dir"
     path = utils.select_path("Creat a dir","Select local to create dir")
     if path != None:
-        messagebox.showinfo("Diretory", "Inform at terminal the name of new dir.")
+        messagebox.showinfo("Diretory", "Enter the name of the new directory into the terminal.")
         new_path = input("Path name : ").strip()
         if len(new_path)>0:
             path_to_create = (path+"//"+new_path)
@@ -33,6 +33,6 @@ def del_dir():
     if len(path) > 0:
         try:
             os.rmdir(path)
-            print("Path removed")
+            print("Path removed", path)
         except FileExistsError:
             pass
