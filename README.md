@@ -4,6 +4,52 @@ https://www.cesar.school/next-nova-experiencia-de-trabalho/
 
 ## Mentores:<br>
 
+        <div class="Box-row clearfix d-flex flex-items-center js-repo-access-entry adminable">
+            <input type="checkbox"
+              class="js-bulk-actions-toggle"
+              id="user-11619154"
+              name="user_ids[]"
+              value="11619154"
+              aria-label="user rqgomes"
+              data-check-all-item >
+            <div class="mx-3">
+  <a href="https://github.com/rqgomes">
+    <img class="avatar avatar-user" data-hovercard-type="user" data-hovercard-url="/users/rqgomes/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" src="https://avatars.githubusercontent.com/u/11619154?s=64&amp;v=4" width="32" height="32" alt="@rqgomes" />
+  </a>
+</div>
+
+<div class="d-flex flex-column flex-auto col-6">
+  <a href="https://github.com/rqgomes"><strong>rqgomes</strong></a>
+  <span class="f6 color-fg-muted">
+
+  </span>
+</div>
+
+<br>
+        </div>
+        <div class="Box-row clearfix d-flex flex-items-center js-repo-access-entry adminable">
+            <input type="checkbox"
+              class="js-bulk-actions-toggle"
+              id="user-26016900"
+              name="user_ids[]"
+              value="26016900"
+              aria-label="user Vitor Falcão Poncell"
+              data-check-all-item >
+            <div class="mx-3">
+  <a href="https://github.com/vfponcell">
+    <img class="avatar avatar-user" data-hovercard-type="user" data-hovercard-url="/users/vfponcell/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" src="https://avatars.githubusercontent.com/u/26016900?s=64&amp;v=4" width="32" height="32" alt="@vfponcell" />
+  </a>
+</div>
+
+<div class="d-flex flex-column flex-auto col-6">
+  <a href="https://github.com/vfponcell"><strong>Vitor Falcão Poncell</strong></a>
+  <span class="f6 color-fg-muted">
+      vfponcell
+      &bull;
+  </span>
+</div>
+<br>
+
 * rqgomes [![Github Badge](https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white&link=https://github.com/rqgomes)](https://github.com/rqgomes)<br>
 * vfponcell [![Github Badge](https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white&link=https://github.com/vfponcell)](https://github.com/vfponcell)<br>
 
@@ -19,19 +65,109 @@ https://www.cesar.school/next-nova-experiencia-de-trabalho/
               aria-label="user Alexandre Carneiro Moreira"
               data-check-all-item >
             <div class="mx-3">
-  <a href="/Alexandre1961">
+  <a href="https://github.com/Alexandre1961">
     <img class="avatar avatar-user" data-hovercard-type="user" data-hovercard-url="/users/Alexandre1961/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" src="https://avatars.githubusercontent.com/u/68691730?s=64&amp;v=4" width="32" height="32" alt="@Alexandre1961" />
   </a>
 </div>
 
 <div class="d-flex flex-column flex-auto col-6">
-  <a href="/Alexandre1961"><strong>Alexandre Carneiro Moreira</strong></a>
+  <a href="https://github.com/Alexandre1961"><strong>Alexandre Carneiro Moreira</strong></a>
   <span class="f6 color-fg-muted">
       Alexandre1961
       &bull;
 </span>
 </div>
+<br>
+        <div class="Box-row clearfix d-flex flex-items-center js-repo-access-entry adminable">
+            <input type="checkbox"
+              class="js-bulk-actions-toggle"
+              id="user-76746671"
+              name="user_ids[]"
+              value="76746671"
+              aria-label="user benjazaicaner"
+              data-check-all-item >
+            <div class="mx-3">
+  <a href="https://github.com/benjazaicaner">
+    <img class="avatar avatar-user" data-hovercard-type="user" data-hovercard-url="/users/benjazaicaner/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" src="https://avatars.githubusercontent.com/u/76746671?s=64&amp;v=4" width="32" height="32" alt="@benjazaicaner" />
+  </a>
+</div>
 
+<div class="d-flex flex-column flex-auto col-6">
+  <a href="https://github.com/benjazaicaner"><strong>benjazaicaner</strong></a>
+  <span class="f6 color-fg-muted">
+
+  </span>
+</div>
+<br>
+        <div class="Box-row clearfix d-flex flex-items-center js-repo-access-entry adminable">
+            <input type="checkbox"
+              class="js-bulk-actions-toggle"
+              id="user-89435108"
+              name="user_ids[]"
+              value="89435108"
+              aria-label="user Filipe Lustosa Franca"
+              data-check-all-item >
+            <div class="mx-3">
+  <a href="https://github.com/filipelustosaf">
+    <img class="avatar avatar-user" data-hovercard-type="user" data-hovercard-url="/users/filipelustosaf/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" src="https://avatars.githubusercontent.com/u/89435108?s=64&amp;v=4" width="32" height="32" alt="@filipelustosaf" />
+  </a>
+</div>
+
+<div class="d-flex flex-column flex-auto col-6">
+  <a href="https://github.com/filipelustosaf"><strong>Filipe Lustosa Franca</strong></a>
+  <span class="f6 color-fg-muted">
+      filipelustosaf
+      &bull;
+  </span>
+</div>
+<br>
+        <div class="Box-row clearfix d-flex flex-items-center js-repo-access-entry adminable">
+            <input type="checkbox"
+              class="js-bulk-actions-toggle"
+              id="user-89464376"
+              name="user_ids[]"
+              value="89464376"
+              aria-label="user Manoel Pedroza"
+              data-check-all-item >
+            <div class="mx-3">
+  <a href="https://github.com/ManoelPedroza">
+    <img class="avatar avatar-user" data-hovercard-type="user" data-hovercard-url="/users/ManoelPedroza/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" src="https://avatars.githubusercontent.com/u/89464376?s=64&amp;v=4" width="32" height="32" alt="@ManoelPedroza" />
+  </a>
+</div>
+
+<div class="d-flex flex-column flex-auto col-6">
+  <a href="https://github.com/ManoelPedroza"><strong>Manoel Pedroza</strong></a>
+  <span class="f6 color-fg-muted">
+      ManoelPedroza
+      &bull;
+  </span>
+</div>
+<br>
+
+        <div class="Box-row clearfix d-flex flex-items-center js-repo-access-entry adminable">
+            <input type="checkbox"
+              class="js-bulk-actions-toggle"
+              id="user-88798677"
+              name="user_ids[]"
+              value="88798677"
+              aria-label="user PauloFCM"
+              data-check-all-item >
+            <div class="mx-3">
+  <a href="https://github.com/paulofcm">
+    <img class="avatar avatar-user" data-hovercard-type="user" data-hovercard-url="/users/paulofcm/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" src="https://avatars.githubusercontent.com/u/88798677?s=64&amp;v=4" width="32" height="32" alt="@paulofcm" />
+  </a>
+</div>
+
+<div class="d-flex flex-column flex-auto col-6">
+  <a href="https://github.com/paulofcm"><strong>PauloFCM</strong></a>
+  <span class="f6 color-fg-muted">
+      paulofcm
+      &bull;
+
+  </span>
+</div>
+
+<br>
 
 * Alexandre1961 [![Github Badge](https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white&link=https://github.com/Alexandre1961)](https://github.com/Alexandre1961)<br>
 * benjazaicaner [![Github Badge](https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white&link=https://github.com/benjazaicaner)](https://github.com/benjazaicaner)<br>
