@@ -29,9 +29,7 @@ https://www.cesar.school/next-nova-experiencia-de-trabalho/
   <span class="f6 color-fg-muted">
       Alexandre1961
       &bull;
-      
-      Collaborator
-  </span>
+</span>
 </div>
 
 
