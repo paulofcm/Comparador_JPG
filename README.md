@@ -8,6 +8,33 @@ https://www.cesar.school/next-nova-experiencia-de-trabalho/
 * vfponcell [![Github Badge](https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white&link=https://github.com/vfponcell)](https://github.com/vfponcell)<br>
 
 ## Desenvolvedores:<br>
+
+
+<div class="Box-row clearfix d-flex flex-items-center js-repo-access-entry adminable">
+            <input type="checkbox"
+              class="js-bulk-actions-toggle"
+              id="user-68691730"
+              name="user_ids[]"
+              value="68691730"
+              aria-label="user Alexandre Carneiro Moreira"
+              data-check-all-item >
+            <div class="mx-3">
+  <a href="/Alexandre1961">
+    <img class="avatar avatar-user" data-hovercard-type="user" data-hovercard-url="/users/Alexandre1961/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" src="https://avatars.githubusercontent.com/u/68691730?s=64&amp;v=4" width="32" height="32" alt="@Alexandre1961" />
+  </a>
+</div>
+
+<div class="d-flex flex-column flex-auto col-6">
+  <a href="/Alexandre1961"><strong>Alexandre Carneiro Moreira</strong></a>
+  <span class="f6 color-fg-muted">
+      Alexandre1961
+      &bull;
+      
+      Collaborator
+  </span>
+</div>
+
+
 * Alexandre1961 [![Github Badge](https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white&link=https://github.com/Alexandre1961)](https://github.com/Alexandre1961)<br>
 * benjazaicaner [![Github Badge](https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white&link=https://github.com/benjazaicaner)](https://github.com/benjazaicaner)<br>
 * filipelustosaf [![Github Badge](https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white&link=https://github.com/filipelustosaf)](https://github.com/filipelustosaf)<br>
